@@ -5,9 +5,60 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.calculatorCard {
+  background-color: white;
+  height: 450px;
+  width: 700px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.cardHeader {
+  text-align: center;
+}
+
+.inputDiv {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardInput {
+  width: 84%;
+  height: 50px;
+  text-align: right;
+}
+
+.calculationDiv {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.symbolButton {
+  width: 14%;
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+
+.numberButton {
+  width: 28%;
+  height: 50px;
+  background-color: blue;
+  color: white;
 }
